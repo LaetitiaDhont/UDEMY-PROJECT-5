@@ -5,8 +5,7 @@
 	margin-bottom: 1.5em;
 }
 
-.login {
-}
+
 .banniere {
 	height: 490px;
 	width: 1546px;
@@ -32,4 +31,8 @@
 .logo {
 	height: 25px;
 	width: 25px;
+}
+
+.img {
+	width: 150px;
 }
