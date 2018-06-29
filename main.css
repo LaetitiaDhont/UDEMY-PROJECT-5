@@ -1,9 +1,36 @@
 .navbar {
 	display: flex;
 	margin-top: 1.5em;
+	margin-bottom: 1.5em;
 }
 
+.login {
+	display: flex;
+	justify-content: flex-end;
+}
 .banniere {
 	height: 490px;
 	width: 1546px;
+	position: relative;
+	z-index: 1;
+}
+
+.bannieretext {
+	position: absolute;
+	z-index: 2;
+	top: 300px;
+	width: 600px;
+	font-size: 200%;
+	margin-left: 1.5em;
+}
+
+.middle {
+	background: linear-gradient(-45deg,#ec5252,#6e1a52);
+  	display: flex;
+  	justify-content: space-around;
+}
+
+.logo {
+	height: 25px;
+	width: 25px;
 }
